@@ -1,4 +1,9 @@
 /* Add your CSS to this file */
+*{
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif';
+    font-size: 18px;
+    margin:0;
+}
 body {
     margin: 0;
     font-size: 16px;
@@ -8,4 +13,140 @@ body {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+}
+
+
+/* Header */
+header{
+    background-color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 200px;
+}
+
+li a{
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: #6b7280;
+}
+
+li a:hover{
+    color:#5a67d8;
+}
+
+
+/* Overview-hero */
+.overview-hero{
+    background-color: #E2E8F0;
+}
+
+.overview-hero .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.overview-hero-text {
+    padding: 30px;
+}
+.overview-hero-text h2{
+    padding-bottom: 15px;
+}
+
+.overview-hero-image img {
+    width: 15vw;
+    height: 25vh;
+}
+
+/* Learn About */
+.learn-about h2{
+    font-size: 24px;
+    color: #48bb78;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.card{
+    border-color: #E2E8F0;
+    box-shadow: 5px 10px #E2E8F0;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    width: 10vw;
+    height: 12vh;
+}
+
+/* #Testing*/
+.testing{
+    background-color: #4a5568;
+    color: white;
+}
+
+.testing .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+
+
+.testing-desciption h2{
+    padding-bottom: 15px;
+}
+
+.cta{
+    background-color: #48bb78;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 15vw;
+}
+
+.cta a{
+    text-decoration: none;
+    color: white;
+    width: 8vw;
+    text-align: center;
+    padding: 5px;
+}
+
+/* #Stories */
+
+
+/* #Newsletter */
+
+
+/*Footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #4A5568;
+    color: white;
+    padding: 50px;
 }
