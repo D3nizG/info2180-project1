@@ -76,17 +76,26 @@ li a:hover{
 .learn-about h2{
     font-size: 24px;
     color: #48bb78;
+    padding-top: 20px;
+}
+
+.learn-about h3{
+    font-size: 21px;
+    color: #48bb78;
 }
 
 .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
+    gap: 10px;
+    margin: 20px;
 }
 
 .card{
     border-color: #E2E8F0;
-    box-shadow: 5px 10px #E2E8F0;
+    border-width: 2px;
+    box-shadow: 2px 2px 5px 10px #E2E8F0;
     border-radius: 5px;
     margin: 10px;
     display: flex;
@@ -111,8 +120,6 @@ li a:hover{
     padding: 100px;
 }
 
-
-
 .testing-desciption h2{
     padding-bottom: 15px;
 }
@@ -135,10 +142,80 @@ li a:hover{
     padding: 5px;
 }
 
+
 /* #Stories */
+.stories{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.stories h2{
+    color: #5a67d8;
+    padding: 20px;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.stories img{
+    height: 15vh;
+    width: 15vw;
+    border-radius: 70%;
+}
+
+.stories h3, p{
+    padding: 10px;
+    font-size: 18px;
+}
+
+article p a{
+    text-decoration: none;
+    color: #5a67d8;
+}
+
 
 
 /* #Newsletter */
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #48bb78;
+    color: #ffffff;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form #email{
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+}
+
+form .btn{
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+}
 
 
 /*Footer */
