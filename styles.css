@@ -210,6 +210,7 @@ form #email{
 }
 
 form .btn{
+    background-color: #5a67d8;
     padding: 5px;
     border-radius: 5px;
     width: 200px;
